@@ -1,0 +1,22 @@
+{
+  "name": "vetflow-ms-appointments",
+  "version": "1.0.0",
+  "description": "VetFlow - Serviço de Agenda (consultas) com Azure SQL e eventos no Azure Service Bus",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "Bernardo Vieira, Murilo Regnier",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/service-bus": "^7.9.5",
+    "express": "^4.21.2",
+    "mssql": "^11.0.1"
+  }
+}
