@@ -99,12 +99,12 @@ export function registerEventDocs(app) {
 <head>
   <meta charset="utf-8" />
   <title>VetFlow - AsyncAPI (eventos)</title>
-  <link rel="stylesheet" href="https://unpkg.com/@asyncapi/react-component@1.0.0-next.39/styles/default.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@asyncapi/react-component@1.4.10/styles/default.min.css" />
   <style>body{margin:0;font-family:sans-serif} pre{padding:16px;background:#f6f8fa;white-space:pre-wrap}</style>
 </head>
 <body>
   <div id="asyncapi"></div>
-  <script src="https://unpkg.com/@asyncapi/react-component@1.0.0-next.39/browser/standalone/index.js"></script>
+  <script src="https://unpkg.com/@asyncapi/react-component@1.4.10/browser/standalone/index.js"></script>
   <script>
     const base = location.href.split(/[?#]/)[0].replace(/\\/?$/, '/');
     fetch(base + 'asyncapi.json').then(r => r.json()).then(schema => {
